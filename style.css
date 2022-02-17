@@ -8,7 +8,7 @@ html{
     color:rgb(22, 22, 175);
     text-align: center;
     font-size: 36px;
-    padding-left: 400px;
+    padding-left: 360px;
     font-weight: 150;
     
   
@@ -26,7 +26,7 @@ header {
 }
 
 .logo{
-
+    
     height: 250px;
 }
 
@@ -66,5 +66,25 @@ nav li{
  nav {
     position: absolute;
 	top: 310px;
-	right: 380px;
+	right: 278px;
 }
+
+.caixa {
+    margin-top: 5px;
+    margin-left: 330px;
+    width: 780px;
+    height:  120px;
+    border: 2px black solid;
+    background: rgb(219, 223, 22);
+    box-shadow: 10px 12px 5px rgb(49, 49, 49);
+}
+
+.Escola {
+    width: 98%;
+    height: 500px;
+    margin-top: 26px;
+    margin-left: 12px;
+    background-color: rgb(143, 111, 22);
+    border: 3px black solid;
+}
+

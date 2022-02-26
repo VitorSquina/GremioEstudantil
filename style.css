@@ -1,17 +1,25 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
 html{
-    background: linear-gradient(rgb(236, 152, 42), rgb(243, 239, 12));
+    background: linear-gradient(#facc22, #f83600);
 }
 
 .titulo-central{
     color:rgb(22, 22, 175);
     text-align: center;
-    font-size: 36px;
-    padding-left: 360px;
+    font-size: 50px;
+    padding-left: 2px;
     font-weight: 150;
+    position: static;
     
   
+}
+
+
+.book{
+    width: 120px;
+    margin-left: 200px;
+
 }
 
 header {
@@ -19,7 +27,7 @@ header {
     display: flex;
     height: auto;
     margin-top: 0px;
-    background-color: rgb(236, 152, 42);
+    background-color: rgb(247, 179, 91);
     border: 5px solid #252424;
   
     
@@ -33,6 +41,9 @@ header {
 p {
     text-align: center;
     margin-top: 200px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 800px;
 }
 
 .menu {
@@ -80,11 +91,205 @@ nav li{
 }
 
 .Escola {
+    display: flex;
     width: 98%;
-    height: 500px;
+    height: 1760px;
     margin-top: 26px;
     margin-left: 12px;
-    background-color: rgb(143, 111, 22);
+    background-color: rgb(240,220,130);
     border: 3px black solid;
 }
 
+.caixa-sobre-escola{
+    position: absolute;
+    margin-left: 620px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(219, 223, 22);
+    margin-top: 5px;
+    border: 2px black solid;
+    box-shadow: 11px 5px 5px rgb(22, 22, 22);
+}
+.Sobre-a-Escola h2{
+    position: absolute;
+    font-weight: 100;
+    margin-top: 20px;
+    color: blue;
+    padding-right: 10px;
+    padding-left: 650px;
+    z-index: 2;
+}
+
+
+
+.caixa-escola{
+    margin-top: 8px ;
+    width: 500px;
+    background:rgb(230, 198, 16);
+    height: 100px;
+    margin-left: 8px ;
+    border: 2px black double;
+    box-shadow: 5px 6px 5px rgb(27, 27, 27);
+  
+}
+.linha1{
+    display:flex;
+    height: 20px;
+    width: 1280px;
+    background-color: rgb(255, 145, 2);
+    margin-top: 7px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+
+.logo-escola{
+    margin-top: 2px;
+    position: absolute;
+    height: 110;
+    margin-left: 1162;
+    border: 2px black solid;
+}
+.foto-escola{
+    margin-top: 20px;
+    margin-left: 13px;
+
+    box-shadow: 20px 16px 5px rgb(36, 35, 35);
+}
+.linha2{
+    position: absolute;
+    background-color: rgb(255, 145, 2);
+    width: 1278px;
+    margin-top: 25px;
+    height: 20px;
+    border: 2px black solid;
+}
+
+
+.Sobre-a-Escola h1{
+
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 40px;
+    color:rgb(0, 1, 63);
+    font-weight: 100;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.Sobre-a-Escola{
+    height: 500px;
+}
+
+.Sobre-a-Escola h1:hover{
+    transition: 1s;
+    color:rgb(22, 22, 175);
+}
+
+.Sobre-a-Escola p{
+    margin-top: 70px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 100px;
+    text-align: center;
+    
+  
+}
+
+.Escola h3{
+    margin-top: 550px;
+    position: absolute;
+    margin-left: -1200px;
+    font-size: 22px;
+    color:blue;
+    font-weight: 100;
+
+    
+}
+
+.caixa-titulo-acoes{
+    height: 70px;
+    width: 490px;
+    margin-top: 530px;
+    margin-left: -1210px ;
+    background:  rgb(219, 223, 22);
+    border: 3px solid black;
+    box-shadow: 8px 6px 5px rgb(41, 40, 40);
+}
+
+.teste1{
+    margin-left: -550px;
+    width: 540px;
+    position: absolute;
+    margin-top: 60px ;
+    border: 10px rgb(202, 116, 4) double;
+}
+
+
+
+.Texto-Ultimas-Acoes{
+    display: inline-block;
+    margin-left: -2000px;
+    margin-top: -120px;
+    position: absolute;
+    z-index: 2;
+}
+
+.teste2{
+    width: 540px;
+
+    position: absolute;
+    margin-top: 450px;
+    border: 10px rgb(202, 116, 4) double;
+    margin-left: -1250px;
+}
+.Texto-Ultimas-Acoes2{
+
+    display: flex;
+    margin-top: 350px;
+    margin-left: -1400px;
+    position: absolute;
+
+}
+
+.logo-footer{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    margin-top: -110px;
+    padding-left: 2px;
+}
+
+.logo-footer2{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    margin-left: 1120px;
+    margin-top: -110px;
+}
+
+.Linha-Final{
+    position: absolute;
+    background-color: rgb(255, 145, 2);
+    width: 1615px;
+    margin-left: -1600px;
+    margin-top: 1150px;
+    height: 20px;
+    border: 2px black solid;
+}
+
+footer{
+  margin-top: 20px;
+  background-color:rgb(247, 179, 91);
+  height: 200px;
+  border: 3px black solid;
+}
+
+footer h1{
+    padding-top: 80px;
+    text-align: center;
+    color: blue;
+    height: auto;
+    text-decoration: none;
+}
